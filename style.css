@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f0659f 0%, #ffcae9 100%);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ejercicio{
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.ejercicio h2{
+    color: #ec49ae;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #f57bd0;
+    padding-bottom: 10px;
+}
+
+.ejercicio p{
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+input:focus{
+    outline: none;
+    border-color: #fa6ddb;
+}
+
+button{
+    background: linear-gradient(135deg, #fa63c8 0%, #ffcae9 100%);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s
+}
+
+button:hover{
+    transform: translate(-2px);
+    box-shadow: 0 5px 15px rgba(155, 45, 122, 0.4);
+}
+
+.resultado{
+    margin-top: 15px;
+    padding: 15px;
+    background: #f0f7ff;
+    border-left: 4px solid #ffaded;
+    border-radius: 5px;
+    
+}
