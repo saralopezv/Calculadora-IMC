@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>Ejercicios basicos de JAVASCRIPT + HTML + CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Ejercicios Prácticos de HTML + CSS + JS</h1>
+
+            <div class="ejercicio">
+                <h2>
+                    Ejercicio 1: Calculadora de IMC
+                </h2>
+
+                <p>
+                    Calcular el IMC usando variables y operaciones. Fórmula: IMC= peso / (altura)2 
+                </p>
+
+                <div class="input-group">
+                    <label for="peso">
+                        Peso (kilogramos):
+                    </label>
+                    <input type="number" name="peso" id="peso" placeholder="Ej: 70 kg" value="">
+                </div>
+
+                <div class="input-group">
+                    <label for="altura">
+                        Altura (metros):
+                    </label>
+                    <input type="number" name="altura" id="altura" placeholder="Ej: 1.75 m">
+                </div>
+
+                <button id="calcular-IMC">
+                    Calcular IMC
+                </button>
+
+                <div id="resultadoIMC" class="resultado">
+                    <h3>
+                        Tu IMC es:
+                    </h3>
+                    <p id="valorIMC">
+                        <b><u>RESULTADO</u></b>
+                    </p>
+
+                    <p id="categoriaIMC">
+                        <b><u>CATEGORIA</u></b>
+                    </p>
+                    <img src="" alt="" id="imagenIMC">
+                </div>
+
+            </div>
+        </div>
+
+        <script src="funciones.js"></script>
+    </body>
+    </html>
